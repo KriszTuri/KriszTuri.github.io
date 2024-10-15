@@ -1,3 +1,25 @@
 body {
     background-color: bisque;
 }
+
+header {
+    width: 100%;
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+}
+
+.logo-div {
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.logo {
+    width: inherit;
+    height: inherit;
+    border: 0px;
+    border-radius: inherit;
+}
